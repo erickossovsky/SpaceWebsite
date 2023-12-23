@@ -8,7 +8,7 @@ function openNavigation() {
   }
 }
 
-var x = window.matchMedia("(max-width: 700px)");
+const x = window.matchMedia("(max-width: 700px)");
 
 function closeNavigation() {
   document.getElementById("sidebar-nav").style.width = "0";
